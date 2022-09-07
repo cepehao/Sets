@@ -306,7 +306,7 @@ namespace _9pLab3._1
                 break;
 
                 case 2:
-                string[] drop = File.ReadAllLines(@"C:\Users\cepeh\Desktop\ttt.txt");
+                string[] drop = File.ReadAllLines(@"YourWay"); //по одному элементу в строке
                 int[] mas = new int[drop.Length];
                 for (int i = 0; i < mas.Length; i++)
                     mas[i] = Convert.ToInt32(drop[i]);
